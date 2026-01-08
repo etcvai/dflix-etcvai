@@ -1,39 +1,44 @@
 import requests
 import os
 
-# The URL from your log
+# 1. The exact URL from your JSON
 url = "https://akashgo.noobmaster.xyz/?api=iptv_m3u"
 
-# Headers extracted from your request.json
+# 2. ALL Headers exactly as they appear in your request.json
 headers = {
-    "User-Agent": "okhttp/4.12.0",
     "Host": "akashgo.noobmaster.xyz",
     "Connection": "Keep-Alive",
-    "Accept-Encoding": "gzip"
+    "Accept-Encoding": "gzip",
+    "User-Agent": "okhttp/4.12.0"
 }
 
 def fetch_playlist():
     try:
-        print("Fetching playlist...")
-        response = requests.get(url, headers=headers, timeout=15)
-        
+        print("1. Sending request to server...")
+        # We use stream=True to handle gzip content correctly if needed
+        response = requests.get(url, headers=headers, timeout=30)
+
+        print(f"2. Server responded with Status Code: {response.status_code}")
+
         if response.status_code == 200:
-            # Check if it's actually an M3U file
             content = response.text
+            
+            # Check if valid playlist content exists
             if "#EXTM3U" in content:
-                # Save to a file named 'iptv.m3u'
                 with open("iptv.m3u", "w", encoding="utf-8") as f:
                     f.write(content)
-                print("✅ Success! Playlist saved to iptv.m3u")
+                print("✅ Success! Playlist saved to 'iptv.m3u'")
             else:
-                print("⚠️ Downloaded, but content doesn't look like M3U.")
-                print(content[:100]) # Print first 100 chars to debug
+                print("⚠️ Server sent 200 OK, but content is not an M3U playlist.")
+                print("First 200 chars of response:", content[:200])
+                # We do NOT save the file if it's invalid, so git won't commit garbage.
         else:
-            print(f"❌ Failed to fetch. Status code: {response.status_code}")
+            print(f"❌ Failed. Status Code: {response.status_code}")
+            print("Response text:", response.text)
             
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"❌ Critical Error: {e}")
 
 if __name__ == "__main__":
     fetch_playlist()
-          
+    
