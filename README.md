@@ -1,2 +1,4 @@
-# dflix-etcvai
-No update 
+# zero-etcvai
+❌Chori
+✅Crack
+🙂
