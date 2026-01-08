@@ -9,7 +9,7 @@ url = "https://akashgo.noobmaster.xyz/?api=iptv_m3u"
 headers = {
     "Host": "akashgo.noobmaster.xyz",
     "User-Agent": "okhttp/4.12.0",
-    "X-Requested-With": "com.blaze.sportzfy",
+    "X-Requested-With": "com.falconnew.live",
     "Accept-Encoding": "gzip"
 }
 
