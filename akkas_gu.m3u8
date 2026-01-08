@@ -1,8 +1,9 @@
+@EXTENDERMAXTG 
 
 
 #EXTM3U
-#EXTINF:-1 tvg-id="falconcast" tvg-name="FalconCast" tvg-logo="https://github.com/falconcasthoster/images/blob/main/FalconCast.png?raw=true" group-title="Promo",FalconCast
-https://raw.githubusercontent.com/falconcasthoster/promo/refs/heads/main/nolink/master.m3u8
+#EXTINF:-1 tvg-id="EXTENDERMAX" tvg-name="EXTENDERMAX" tvg-logo="" group-title="Promo", EXTENDERMAX 
+https://error 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://akashgo.noobmaster.xyz/license.php?cid=165&ltoken=AcpSj4ZfUEB0G_i25X2kxxmFDGah0bdcqXKlHfFog7CA-G0TzkaDBNisPBOoI0tM2HXezS8hsfHSldY2exRtlpTgahYyLR2u-u8VnDPonI4uRnbCNHG3EytrbZwQ_IYQ9XWr8DERxTMHLwAqAzqkCymmNRRCzMGSiX_xB9zegqYgUr-fWvFsdjVjHiDAFaQ1eg
@@ -26,6 +27,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.mpd
 https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.mpd
 #EXTINF:-1 tvg-id="6" tvg-name="Somoy TV" tvg-country="BD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560559088.png" tvg-chno="6" group-title="News",Somoy TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+@EXTENDERMAXTG
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://akashgo.noobmaster.xyz/license.php?cid=164&ltoken=AaNz9gvu1uZJA79w7DSuncrUJZIk0iReW5bqU07MZ0igw62ysgVBIsJjACDyRZIyJOI3sBdntNlnRJ7DfHBCZd8Y7GdNyf6RTJsE6qasJQoP0o-Vm-1oQNQO9xC07Fth8TW-RogLbX3-mWGw6aGjHKx0DPPKJyJKZHmxOBhm_iwAykqQiikxUE3pKQY-M0soMg
 #EXTINF:-1 tvg-id="7" tvg-name="Star Sports 2 HD" tvg-country="BD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1766036289415.png" tvg-chno="7" group-title="Sports",Star Sports 2 HD
@@ -50,6 +52,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://akashgo.noobmaster.xyz/license.php?cid=116&ltoken=Ab6L6fBn-4SOUDoiZiZ8pzgwwH978gkzTSFVOKaZ0bkTNTq-L45480YcUk1yEsT6MQC26NACoKcQAYdNoWdmyRbeDTIlgXs4lYmMVePXkpNDWKm3ONs0mUaZ8AqfebR49-qZNiD4yOlK1j1yBJ3GZmevHw-j32XPv7gTR86fc2KJMU7MeWUT0XdTh4_4qfyVZA
 #EXTINF:-1 tvg-id="13" tvg-name="Sony Sports TEN 5" tvg-country="BD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739906861365.png" tvg-chno="13" group-title="Sports",Sony Sports TEN 5
 https://owrcovcrpy.gpcdn.net/bpk-tv/1717/output/index.mpd
+@EXTENDERMAXTG
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://akashgo.noobmaster.xyz/license.php?cid=90&ltoken=Afo8AlJklyviLpF_q-JArdNIVa8Urhelo3FtpueHQQvNLs_wpvaZo3ZAnniqbGVcso1BlUCx0jR45uQtXyZ-LE1m6cjsCIspLiX9jYg00ShwB5U34UfQCAX29NkIdp33ZxUHJeQzycM5twoXaxPUhr52cacuCOxszSVGq-H71F050dxGlOc2CGvLFKx03SK5GQ
 #EXTINF:-1 tvg-id="14" tvg-name="Euro Sports HD" tvg-country="BD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1765256371720.png" tvg-chno="14" group-title="Sports",Euro Sports HD
@@ -76,6 +79,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 #KODIPROP:inputstream.adaptive.license_key=https://akashgo.noobmaster.xyz/license.php?cid=123&ltoken=AfFT13kPGnK8EDqG-BqExV8Nm9SnIGYuLtnzU-2rC1qIhmWHyrM8o7ShwiB_W68-b4sRF5oShd0Cu8Hzz9zvtCLjeTevu18wLBVox1ev2hItDqrhCcBWTba9l8BFSgJHZPoSxmmBPTc_fvhiUwY1xYZgtnlu9Ex3KZk9V2A-5AMr3nPcTRXaHnIvw57wWsH73w
 #EXTINF:-1 tvg-id="21" tvg-name="STAR GOLD" tvg-country="BD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735554654688.png" tvg-chno="21" group-title="Movies",STAR GOLD
 https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.mpd
+@EXTENDERMAXTG
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://akashgo.noobmaster.xyz/license.php?cid=143&ltoken=AWoKYs0IrK__3K7OXL2NFw81dGbVeoGUFB35ZIveJNd7HzUV0Va-N9TDoQRY9mXqX3ahgv_NBtE0XP0TEHB18XdUcqExkDs9ebiM6aD3bgK_ZyWJK2mwPhYk-lxVjmpO5rAl_o1FvqHqhyl50fc5pCOFAEQ5ree7M2SQ5cOpcB8ulaJogtxBNKQ3KreoabMc3g
 #EXTINF:-1 tvg-id="22" tvg-name="ZEE BANGLA" tvg-country="BD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1756017182009.png" tvg-chno="22" group-title="Entertainment",ZEE BANGLA
