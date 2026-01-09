@@ -2,7 +2,7 @@ import cloudscraper
 import os
 
 # 1. Target URL
-url = "http://172.19.178.180/playlists1/?download=m3u_playlist"
+url = "https://falconcastapp.info/playlist/ftp/app/playlist.m3u?id=160b2cfb48f9"
 
 # 2. Exact Headers from your logs
 # We use the 'okhttp' User-Agent and the 'Sportzfy' package name
