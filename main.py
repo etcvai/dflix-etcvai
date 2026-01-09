@@ -2,7 +2,7 @@ import cloudscraper
 import os
 
 # 1. Target URL
-url = "https://falconcastapp.info/playlist/ftp/app/playlist.m3u?id=160b2cfb48f9"
+url = "https://akashgo.noobmaster.xyz/?api=iptv_m3u"
 
 # 2. Exact Headers from your logs
 # We use the 'okhttp' User-Agent and the 'Sportzfy' package name
