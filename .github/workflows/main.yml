@@ -3,13 +3,13 @@ name: Hourly Playlist Update
 on:
   schedule:
     - cron: '0 * * * *' # Runs every hour
-  workflow_dispatch: # Allows you to manually trigger it from the Actions tab
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Essential permission to push changes back
+      contents: write # Essential permission
 
     steps:
       - name: Checkout code
@@ -33,7 +33,13 @@ jobs:
           git config --global user.email "action@github.com"
           git add playlist.m3u
           
-          # Check if there are changes before committing to avoid empty commit errors
+          # Check for changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update playlist [skip ci]"
+            git push
+          fi
           if git diff --staged --quiet; then
             print("No changes to commit")
           else
