@@ -1,15 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MT20: West Indies v Scotland" tvg-name="MT20: West Indies v Scotland" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770457774/prd/munbuskrrn8mpyz5jrho" group-title="ICC Live",MT20: West Indies v Scotland
+#EXTINF:-1 tvg-id="MT20: India v USA" tvg-name="MT20: India v USA" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470443/prd/cqmwffcxzaf4ssbscdol" group-title="ICC Live",MT20: India v USA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.icc-cricket.com/
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-03)/manifest.mpd?vcfilter=fb301c18-9ad4-4ae2-a04e-1f5842c76a21
-#EXTINF:-1 tvg-id="MT20: West Indies v Scotland (HINDI)" tvg-name="MT20: West Indies v Scotland (HINDI)" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770457808/prd/kb2riqrqupbffj0y7hye" group-title="ICC Live",MT20: West Indies v Scotland (HINDI)
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-02)/manifest.mpd?vcfilter=0d7ecdf3-8c1b-4d5e-b5e5-764536417ba1
+#EXTINF:-1 tvg-id="MT20: India v USA (HINDI)" tvg-name="MT20: India v USA (HINDI)" tvg-logo="https://images.icc-cricket.com/image/upload/t_ratio16_9-size50/v1770470392/prd/t4pn1pnqzvrv4b55try1" group-title="ICC Live",MT20: India v USA (HINDI)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.icc-cricket.com/
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
-https://livem-d-01-icc-we.akamaized.net/variant/v1/dai-event-prd-pal-west/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-05)/manifest.mpd?vcfilter=44951f97-10ec-427f-a95a-a2ecf57e9a41
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-04)/manifest.mpd?vcfilter=a2432dde-92bc-4e39-b7ad-d799c59e3d80
