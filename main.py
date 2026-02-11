@@ -5,7 +5,7 @@ import sys
 # ---------------------------------------------------------
 # CONFIGURATION চুরি করা মহান পেশা ভাই, চালিয়ে যা। মাদার*দ চোর এর বাচ্চা।
 # ---------------------------------------------------------
-JSON_URL = "https://psplay.indevs.in/icctv"
+JSON_URL = "https://psplay.indevs.in/icctv/lol.php"
 OUTPUT_FILE = "icc.m3u8"
 
 # Headers mimicking a real browser
