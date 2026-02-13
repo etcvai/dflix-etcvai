@@ -8,6 +8,11 @@ import sys
 JSON_URL = "https://psplay.indevs.in/icctv/lol.php"
 OUTPUT_FILE = "icc.m3u8"
 
+# Default Promo Channel Details
+PROMO_TITLE = "EXTENDERMAXTG"
+PROMO_URL = "https://drive.google.com/file/d/1CCtOaagdSgWN2KrZXP1Wll-KJHBlqqXE/view?usp=drivesdk"
+PROMO_LOGO = "https://i.ibb.co.com/7JsT97R6/a-sleek-professional-television-channel-k0s-Gqv-F4-Rfa-MPGG8x8-Ao-Bg-Nxp-WWef-BSL.jpg"
+
 def generate_playlist():
     print(f"Fetching data from {JSON_URL}...")
     
@@ -21,7 +26,12 @@ def generate_playlist():
         sys.exit(1)
 
     m3u_content = ['#EXTM3U']
-    count = 0
+    
+    # --- ADD DEFAULT PROMO CHANNEL START ---
+    m3u_content.append(f'#EXTINF:-1 tvg-id="{PROMO_TITLE}" tvg-name="{PROMO_TITLE}" tvg-logo="{PROMO_LOGO}" group-title="PROMO",{PROMO_TITLE}')
+    m3u_content.append(PROMO_URL)
+    count = 1 
+    # --- ADD DEFAULT PROMO CHANNEL END ---
 
     # Accessing live_streams from the root level of the JSON
     streams = data.get("live_streams", [])
@@ -51,7 +61,7 @@ def generate_playlist():
     try:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(m3u_content))
-        print(f"Success: Generated {OUTPUT_FILE} with {count} channels.")
+        print(f"Success: Generated {OUTPUT_FILE} with {count} channels (including Promo).")
     except Exception as e:
         print(f"File Write Error: {e}")
         sys.exit(1)
